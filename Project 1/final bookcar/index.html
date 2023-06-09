@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>BOOK Car</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/6702d214c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("FJCM8v-s2o0SMtuL5");
+      })();
+    </script>
+  </head>
+  <body>
+    <header id="home">
+      <nav class="navbar1">
+        <a href="#home" class="nav-logo" id="home">BOOK<span>CAR</span></a>
+
+        <ul class="nav-menu1">
+          <li class="nav-item1">
+            <a href="#home" class="nav-link1">Home</a>
+          </li>
+          <li class="nav-item1">
+            <a href="#about" class="nav-link1">About</a>
+          </li>
+          <li class="nav-item1">
+            <a href="#service" class="nav-link1">Book</a>
+          </li>
+          <li class="nav-item1">
+            <a href="#vehicles" class="nav-link1">Details</a>
+          </li>
+          <li class="nav-item1">
+            <a href="#contact" class="nav-link1">Contact</a>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </nav>
+      <div class="header-content">
+        <h2>Don’t dream it. Drive it.</h2>
+        <p>
+          Book a cab for outstation at best price, Get fastest taxi service
+          available in all the top Indian cities.
+        </p>
+      </div>
+    </header>
+
+    <!-- about start -->
+    <section id="about">
+    <div class="about" >
+      <div class="inner-section">
+          <h1>About Us</h1>
+          <p class="text">
+              A car rental, hire car or car hire agency is a company that rents automobiles for 
+              short periods of time to the public, generally ranging from a few hours to a few weeks. 
+              It is often organized with numerous local branches. 
+          </p>
+          <div class="skills"><button>More</button></div>
+      </div>
+  </div>
+</section>
+
+    <!---Services -->
+    <div class="out" id="service">
+      <div class="flex book">
+        <form>
+          <div class=" flex form-head align-center justify-center">
+            <h2>Make your trip</h2>
+          </div>
+          <p>Pick-up location</p>
+          <input type="text" placeholder="City,Airport,Station,etc" />
+          <p>Drop-off location</p>
+          <input type="text" placeholder="City,Airport,Station,etc" />
+          <p style="width: 50%; float: left">pick-up date</p>
+          <p style="width: 50%; float: right">drop-off date</p>
+          <input type="date" />
+          <input style="float: right" type="date" />
+          <p>pick-up time</p>
+          <input type="time" />
+          <button type="submit" class="form-button">Rent a Car Now</button>
+        </form>
+      </div>
+    </div>
+     <!-- <div class="flex services">
+        <div class="flex two">
+          <div class="slide-container swiper">
+            <div class="slide-content">
+              <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                      <img src="img/airport.jpg" alt="" class="card-img" />
+                    </div>
+                  </div>
+
+                  <div class="card-content">
+                    <h2 class="name">Weeding Ceremony</h2>
+                    <p class="description">
+                      A decorated car is povided for wedding ceremony with all
+                      facilities has seat for 4 people.
+                    </p>
+
+                    <button class="button">View More</button>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                      <img src="img\local.png" alt="" class="card-img" />
+                    </div>
+                  </div>
+
+                  <div class="card-content">
+                    <h2 class="name">City Transfer</h2>
+                    <p class="description">
+                      You can book a car for travelling within the city for
+                      visit local place.We provide taxi for this work.
+                    </p>
+
+                    <button class="button">View More</button>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                      <img src="img/airport.jpg" alt="" class="card-img" />
+                    </div>
+                  </div>
+
+                  <div class="card-content">
+                    <h2 class="name">Airport Transfer</h2>
+                    <p class="description">
+                      You can a car for travelling to airport in a smallest
+                      possible time and get your plane easily.
+                    </p>
+
+                    <button class="button">View More</button>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                      <img src="img/city tour.png" alt="" class="card-img" />
+                    </div>
+                  </div>
+
+                  <div class="card-content">
+                    <h2 class="name">Whole City Tour</h2>
+                    <p class="description">
+                      There is prefix tour of car for whole city tour your can
+                      take and leave car accordingly
+                    </p>
+
+                    <button class="button">View More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <div class="swiper-button-prev swiper-navBtn"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="one"></div>
+      </div>
+    </div>-->
+
+    <!--  car details -->
+    <section class="vehicle" id="vehicles">
+      <div class="vehicles">
+        <h1 class="heading">Our <span>Vehicles</span></h1>
+        <div class="swiper vehicles-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+              <img src="./img/a1.png" alt="1" />
+              <div class="content">
+                <h3>New Model</h3>
+                <div class="price"><span>Price:</span>$65000/-</div>
+                <p>
+                  <span class="fas fa-circle"></span>2023
+                  <span class="fas fa-circle"></span>Automatic
+                  <span class="fas fa-circle"></span>Petrol
+                  <span class="fas fa-circle"></span>183mph
+                </p>
+                <a href="#" class="btn">Rent Now</a>
+              </div>
+            </div>
+            <div class="swiper-slide box">
+              <img src="./img/a2.png" alt="1" />
+              <div class="content">
+                <h3>New Model</h3>
+                <div class="price"><span>Price:</span>$65000/-</div>
+                <p>
+                  <span class="fas fa-circle"></span>2023
+                  <span class="fas fa-circle"></span>Automatic
+                  <span class="fas fa-circle"></span>Petrol
+                  <span class="fas fa-circle"></span>183mph
+                </p>
+                <a href="#" class="btn">Rent Now</a>
+              </div>
+            </div>
+            <div class="swiper-slide box">
+              <img src="./img/a3.png" alt="1" />
+              <div class="content">
+                <h3>New Model</h3>
+                <div class="price"><span>Price:</span>$65000/-</div>
+                <p>
+                  <span class="fas fa-circle"></span>2023
+                  <span class="fas fa-circle"></span>Automatic
+                  <span class="fas fa-circle"></span>Petrol
+                  <span class="fas fa-circle"></span>183mph
+                </p>
+                <a href="#" class="btn">Rent Now</a>
+              </div>
+            </div>
+            <div class="swiper-slide box">
+              <img src="./img/a4.png" alt="1" />
+              <div class="content">
+                <h3>New Model</h3>
+                <div class="price"><span>Price:</span>$65000/-</div>
+                <p>
+                  <span class="fas fa-circle"></span>2023
+                  <span class="fas fa-circle"></span>Automatic
+                  <span class="fas fa-circle"></span>Petrol
+                  <span class="fas fa-circle"></span>183mph
+                </p>
+                <a href="#" class="btn">Rent Now</a>
+              </div>
+            </div>
+            <div class="swiper-slide box">
+              <img src="./img/a5.png" alt="1" />
+              <div class="content">
+                <h3>New Model</h3>
+                <div class="price"><span>Price:</span>$65000/-</div>
+                <p>
+                  <span class="fas fa-circle"></span>2023
+                  <span class="fas fa-circle"></span>Automatic
+                  <span class="fas fa-circle"></span>Petrol
+                  <span class="fas fa-circle"></span>183mph
+                </p>
+                <a href="#" class="btn">Rent Now</a>
+              </div>
+            </div>
+            <div class="swiper-slide box">
+              <img src="./img/a6.png" alt="1" />
+              <div class="content">
+                <h3>New Model</h3>
+                <div class="price"><span>Price:</span>$65000/-</div>
+                <p>
+                  <span class="fas fa-circle"></span>2023
+                  <span class="fas fa-circle"></span>Automatic
+                  <span class="fas fa-circle"></span>Petrol
+                  <span class="fas fa-circle"></span>183mph
+                </p>
+                <a href="#" class="btn">Rent Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!--contact us -->
+    <section class="contact-form" id="contact">
+      <div class="container-3">
+        <div class="form-wrapper">
+          <div class="company-add">
+            <div class="add-group">
+              <i class="fas fa-map-marker-alt text-red fa-2x"></i>
+              <h2 class="text-gray sm-heading">LOCATION</h2>
+              <p>141/21,IT Park near Bhaverkwa,Gwalior, M.P.</p>
+            </div>
+            <div class="add-group">
+              <i class="fas fa-envelope text-red fa-2x"></i>
+              <h2 class="text-gray sm-heading">E-MAIL</h2>
+              <p>ajwebteck2@gmail.com</p>
+            </div>
+            <div class="add-group">
+              <i class="fas fa-phone-square-alt text-red fa-2x"></i>
+              <h2 class="text-gray sm-heading">CALL</h2>
+              <p>+918845459092</p>
+            </div>
+            <img src="./img/c1.jpg" alt="company image" />
+          </div>
+          <form class="form" action="#" method="POST" onsubmit="SendMail()">
+            <h1 class="lg-heading text-red">CONTACT US</h1>
+            <p class="text-gray sm-heading">
+              Let us your questions ,suggestions and concerns by filling out the
+              contact from below
+            </p>
+            <div class="form-group">
+              <label for="name">Name :</label>
+              <input type="text" name="name" id="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email :</label>
+              <input type="text" name="email" id="email" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject :</label>
+              <input type="text" name="subject" id="subject" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message :</label>
+              <textarea type="text" name="message" id="message"></textarea>
+            </div>
+            <button type="submit" class="form-button">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--  Footer -->
+    <div class="flex flex-column flex-shrink-0">
+      <div class="flex bg1 justify-sbet">
+        <div class="flex flex-column foot">
+          <div class="flex foot0"><span> Abo</span>ut us</div>
+          <div
+            class="flex foot5 justify-center"
+            style="margin-top: 20px; margin-bottom: 15px; color:white;font-family: monospace; margin-left:15px">
+            At Bookcar, we are dedicated to providing a seamless car
+            buying experience for all customers. With a wide selection of new
+            and used vehicles, and we strive to exceed your expectations and 
+            make finding your dream car effortless.
+          </div>
+          <div class="flex foot2">
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-facebook-square"></i></a>
+            <a href="#"><i class="fa fa-linkedin-square"></i></a>
+            <a href="#"><i class="fa fa-twitter-square"></i></a>
+          </div>
+        </div>
+        <div class="flex flex-column foot_f">
+          <div class="flex foot0"><span> Qui</span>ck Links</div>
+          <div class="flex foot1">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="flex flex-column foot_10">
+          <div class="flex foot0"><span> Con</span>tact Us</div>
+          <div class="flex foot3">
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fa fa-map-marker"></i>
+                    C-123 Govindpuri <br />
+                    <pre>   Gwalior, 474001 <br />   India</pre>
+                  </a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-phone"></i>
+                    +91 1234567890 <br />
+                    <pre>    +91 1234567890</pre>
+                  </a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-envelope"></i>
+                    ajwebtech2@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="flex ffoot">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229085.73732484458!2d78.0508119271116!3d26.21408798241698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c5d1792291fb%3A0xff4fb56d65bc3adf!2sGwalior%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1675072569762!5m2!1sen!2sin"
+            width="290"
+            height="230.8"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div class="flex bg2 justify-center">
+        <span
+          >copyright &copy;
+          <a href="#">Bookcar</a>
+        </span>
+      </div>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const hamb = document.querySelector(".hamburger");
+      const navmenu = document.querySelector(".nav-menu1");
+
+      hamb.addEventListener("click", () => {
+        hamb.classList.toggle("active");
+        navmenu.classList.toggle("active");
+      });
+      document.querySelectorAll(".nav-link1").forEach((n) =>
+        n.addEventListener("click", () => {
+          hamb.classList.remove("active");
+          navmenu.classList.remove("active");
+        })
+      );
+
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector(".navbar1");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+
+      //car silder
+      var swiper = new Swiper(".vehicles-slider", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        garbCursor: true,
+        centeredSlides: true,
+        autoplay: {
+          delay: 4500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          991: {
+            slidesPerView: 3,
+          },
+        },
+      });
+      //services
+
+      var swiper = new Swiper(".slide-content", {
+        slidesPerView: 3,
+        spaceBetween: 25,
+        loop: true,
+        centerSlide: "true",
+        fade: "true",
+        grabCursor: "true",
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          dynamicBullets: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          520: {
+            slidesPerView: 2,
+          },
+          950: {
+            slidesPerView: 3,
+          },
+        },
+      });
+
+      //contact us
+      function SendMail() {
+        var params = {
+          from_name: document.getElementById("name").value,
+          email_id: document.getElementById("email").value,
+          subject: document.getElementById("subject").value,
+          address: document.getElementById("message").value,
+        };
+        emailjs
+          .send("service_k4vlfy4", "template_3njys22", params)
+          .then(function (res) {
+            alert("Success! " + res.status);
+          });
+      }
+    </script>
+  </body>
+</html>

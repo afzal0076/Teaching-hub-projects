@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Rasoi || Home</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="./img/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link
+           rel="stylesheet"
+           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+           integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+           crossorigin="anonymous"
+           referrerpolicy="no-referrer"
+        />
+        <script src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+
+    </head>
+    <body>
+
+
+      <!-- HOME START-->
+        <header id="home">
+            <nav class="navbar1">
+              <a href="#home" class="nav-logo" id="home"><img src="./img/logo.png"></a>
+      
+              <ul class="nav-menu1">
+                <li class="nav-item1">
+                  <a href="#home" class="nav-link1">Home</a>
+                </li>
+                <li class="nav-item1">
+                  <a href="about.html" class="nav-link1">About</a>
+                </li>
+                <li class="nav-item1">
+                    <a href="menu.html" class="nav-link1">Menu</a>
+                </li>
+                <li class="nav-item1">
+                  <a href="book.html" class="nav-link1">Booking</a>
+                </li>
+                <li class="nav-item1">
+                  <a href="chef.html" class="nav-link1">Our Chef</a>
+                </li>
+                <li class="nav-item1">
+                    <a href="feature.html" class="nav-link1">Feature</a>
+                </li>
+                <li class="nav-item1">
+                  <a href="contactus.html" class="nav-link1">Contact</a>
+                </li>
+              </ul>
+      
+              <div class="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
+            </nav>
+           <div class="box">
+            <div class="header-content">
+              <h2>Taste of heaven!</h2>
+              <p>
+                Stop by today and experience our warm hospitality and great food!
+                 We look forward to serving you.
+              </p>
+              <a href="book.html" class="btn">Book A Tabel</a>
+            </div>
+            <div class="header-image">
+                <img src="./img/thalii.png">
+            </div>
+        </div>
+    </header>
+    
+
+
+     <!-- ABOUT PAGE START-->
+     <section id="about">
+       <div class="main">
+         <img src="./img/about1.png">
+         <div class="all-text">
+          <h4>About Us</h4>
+          <h1>Welcome to Our Restaurant!</h1>
+          <p>We are a family owned and operated restaurant that has been serving delicious food for over 10 years. 
+            Our mission is to provide our customers with the freshest and most delicious food in town. We use only
+             the finest ingredients and take pride in our commitment to freshness, quality, and customer service.
+          </p>
+          <div class="ex">
+            <p><span class="num">15 </span>Years of <span class="exp"><br>Expereince</span></p>
+            <p><span class="num">50 </span>Popular <span class="exp"><br>Master Chefs</span></p>
+          </div>
+          <a href="about.html" class="btn">Learn More</a>
+         </div>
+       </div>
+      </section>
+
+   
+       
+      <!-- menu section strat-->
+    <section id="menu">
+        <h1 class="heading">Our <span>Menu</span></h1>
+        <nav class="navbar">
+            <a href="#All" onclick="showAll()">All Meals</a>
+            <a href="#Lunch" onclick="showLunch()">Lunch</a>
+            <a href="#snacks" onclick="showSnacks()">Snacks</a>
+            <a href="#Dinner" onclick="showDinner()">Dinner</a>
+            <a href="#Sweets" onclick="showSweets()">Sweets</a>
+        </nav>
+
+        <div class="container">
+            <div class="menu-item card Lunch">
+                <img src="./img/lunch 1.jpg" alt="Menu Item Image">
+                <h3>Chola Kulcha</h3>
+                <span class="price">195 Rs</span>
+                <button class="button button1 ">Buy Now</button>
+            </div>
+            <div class="menu-item card Lunch">
+                <img src="./img/lunch 2.jpg" alt="Menu Item Image">
+                <h3>Khichdi and curd</h3>
+                <span class="price">170 Rs</span>
+                <button class="button button1 ">Buy Now</button>
+            </div>
+           
+        
+
+
+
+
+            <div class="menu-item card snacks">
+                <img src="./img/snacks 1.jpg" alt="Menu Item Image">
+                <h3>Bhel Puri</h3>
+                <span class="price">50 Rs</span>
+                <button class="button button1 ">Buy Now</button>
+            </div>
+            <div class="menu-item card snacks">
+                <img src="./img/snacks 3.jpg" alt="Menu Item Image">
+                <h3>Khaman Dhokla</h3>
+                <span class="price">70 Rs</span>
+                <button class="button button1 ">Buy Now</button>
+            </div>
+        
+
+
+
+            <div class="menu-item card Dinner">
+                <img src="./img/dinner 1.jpg" alt="Menu Item Image">
+                <h3>Fried Rice</h3>
+                <span class="price">70 Rs</span>
+                <button class="button button1 ">Buy Now</button>
+            </div>
+ 
+
+
+
+            <div class="menu-item card Sweets">
+                <img src="./img/sweet 1.jpg" alt="Menu Item Image">
+                <h3>Chocolate Pastry</h3>
+                <span class="price">65 Rs</span>
+                <button class="button button1 ">Buy Now</button>
+            </div>
+   
+            <a href="menu.html"><button class="button button1 more">More</button></a>
+        
+</section>
+      
+
+    <!--Start booking-->
+    <section id="TableBooking">
+        <h1 class="heading">Table <span>Booking</span></h1>
+        <div class="book">
+            <div class="table">
+                <h1>Book Your Table For Private Dinners & Happy Hours</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis
+                    ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+    
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis
+                    ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+                    .</p>
+            </div>
+            <div class="frm">
+                <form onsubmit="details()">
+                    <input type="text" id="name" placeholder="Name" required>
+                    <input type="email" id="email" placeholder="Email" required>
+                    <input type="number(10)" id="mob" placeholder="Mobile" required>
+                    <input type="date" id="fd" placeholder="Date" required>
+                    <input type="time" id="fd" placeholder="Time" required>
+                    <select name="select">
+                        <option value="value0">Guest </option>
+                        <option value="value1">Guest 1</option>
+                        <option value="value2">Guest 2</option>
+                        <option value="value3">Guest 3</option>
+                        <option value="value4">Guest 4</option>
+                        <option value="value5">Guest 5</option>
+                        <option value="value6">Guest 6</option>
+                        <option value="value7">Guest 7</option>
+                        <option value="value8">Guest 8</option>
+                        <option value="value9">Guest 9</option>
+                    </select>
+                    <button type="submit" id="a" class="btn-book">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+   
+    
+
+
+       <!-- review section-->
+       <section id="testimonial">
+        <div class="testimonial-heading">
+            <span>Review</span>
+            <h1>Clients Says</h1>
+        </div>
+        <div class="testimonial-box-container">
+            <div class="testimonial-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="./img/b2.jpg" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Touseeq Ijaz</strong>
+                            <span>@touseeqi jazweb</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam incidunt architecto vitae quos quis deleniti laudantium obcaecati, provident voluptatibus numquam.</p>
+                </div>
+            </div>
+            <div class="testimonial-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="./img/b3.jpg" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Rashmika Rawat</strong>
+                            <span>@Rawat Rashmika</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam incidunt architecto vitae quos quis deleniti laudantium obcaecati, provident voluptatibus numquam.</p>
+                </div>
+            </div>
+           <!--<div class="testimonial-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="./img/b4.jpg" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Rashmi Singh</strong>
+                            <span>@Rashmi Singh</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam incidunt architecto vitae quos quis deleniti laudantium obcaecati, provident voluptatibus numquam.</p>
+                </div>
+            </div>-->
+            <div class="testimonial-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="./img/b5.jpg" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Samita Rao</strong>
+                            <span>@Samita Rao</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam incidunt architecto vitae quos quis deleniti laudantium obcaecati, provident voluptatibus numquam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+  <!--footer start -->
+  <footer>
+    <div class="row">
+        <div class="col">
+            <h1>R<span>asoi</span></h1>
+            <p class="footer-about">A restaurant is a place where cooked food is sold to the public, and where people sit down to eat it. It is also a place where people go to enjoy the time and to eat a meal.</p>
+           
+        </div>
+        <div class="col"> 
+            <h3>Office</h3>
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i> C-123 Govindpuri, Gwalior 474001 India</p>
+            
+            <p class="email-id"><i class="fa fa-envelope" aria-hidden="true"></i> abc2@gmail.com</p>
+            <p><i class="fa fa-mobile" aria-hidden="true"></i> +91 - 0123456789</p>
+        </div>
+        
+        <div class="col">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">FAQ'S</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Terms & Condition</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Newsletter</h3>
+            <form>
+                <i class="far fa-envelope"></i>
+                <input type="email" placeholder="Enter your email id" required>
+                <button type="submit"><i class="fas fa-arrow-right"></i></button>
+            
+            </form>
+            <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-whatsapp"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copywrite">MY <span>resturent</span> &copy; 2023 - All Rights Reserved</p>
+</footer>
+
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
